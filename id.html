@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University ID Card</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* ID Card Styling */
+        .id-card {
+            width: 500px;
+            height: 320px;
+            border-radius: 10px;
+            background-color: #fff;
+            border: 2px solid #ccc;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #e60f0f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+            padding-left: 15px; 
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            padding-left: 15px;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+        }
+
+        .logo-large {
+            width: 190px;
+            height: auto;
+
+        }
+        .header-right {
+            display: flex;
+            align-items: center;
+            padding-right: 15px;
+            position: absolute;
+            font-size: 17px;
+            padding-right: 30px;
+            font-weight: bold;
+            top: 10px;
+            right: 15px;
+        }
+
+        
+        .divider {
+        width: 1px;
+        height: 60px;
+        background-color: white;
+        margin-right: 10px;
+        }  
+        
+        /* Main Content */
+        .content {
+            padding: 15px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10%;
+            object-fit: cover;
+            border: 2px solid #e51b1b;
+        }
+
+        .personal-info {
+            flex: 1;
+        }
+
+        .personal-info h3 {
+            font-size: 18px;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        .personal-info p {
+            color: #333;
+            font-size: 14px;
+            margin: 3px 0;
+        }
+
+        /* Footer Section */
+        .footer {
+            background-color: #e60f0f;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="id-card">
+        <div class="header">
+            <img src="c:/Users/Arib/OneDrive/Documents/my id card/logo.png" alt="Logo 1" class="logo">
+            <img src="c:/Users/Arib/OneDrive/Documents/my id card/2.png" alt="Logo 2" class="logo-large">
+            <div class="header-right">
+                <div class="divider"></div>
+                Simply World Class..
+            </div>
+        </div>
+
+        <div class="content">
+            <img src="c:/Users/Arib/OneDrive/Documents/my id card/depositphotos_58597599-stock-illustration-male-user-icon.webp" alt="Profile Image" class="profile-img">
+            <div class="personal-info">
+                <h3>Arib Rais Khan</h3>
+                <p><strong>Course:</strong> B.Tech 3rd Year</p>
+                <p><strong>Mobile:</strong> 8329749776</p>
+                <p><strong>DOB:</strong> 16/09/2003</p>
+                <p><strong>Blood Group:</strong> O+</p>
+                <p><strong>Address:</strong> Balaji Apt, Gulshan Colony, Nashik</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Issued by Sandip University | Authorized Signature</p>
+        </div>
+    </div>
+</body>
+</html>
